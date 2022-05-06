@@ -1,0 +1,28 @@
+_id: req_c2bd05cd418441fd9c7fe43641b2adfb
+type: Request
+parentId: wrk_af92c0402a7d4b45acc978e4d6c0e8e7
+modified: 1651859075623
+created: 1651832116135
+url: http://localhost:5000/graphql
+name: Get Users
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"query{\n\ta:
+    user{\n\t\tfirstName\n\t\tlastName\n\t\temail\n\t}\n\tb:
+    user{\n\t\tid\n\t\tfirstName\n\t\tlastName\n\t}\n}"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_5e242f01e4394fbea8ed7c5d2afc5101
+authentication: {}
+metaSortKey: -1651832116135
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

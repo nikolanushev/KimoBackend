@@ -1,0 +1,29 @@
+_id: req_904f2ba67ebf4308916c7b5dd741862e
+type: Request
+parentId: wrk_af92c0402a7d4b45acc978e4d6c0e8e7
+modified: 1651858921379
+created: 1651836229289
+url: http://localhost:5000/graphql
+name: Mutation
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"mutation {\n\taddUser (\n\t\tinput: {\n\t\t\tfirstname:
+    \"Viktor\", \n\t\t\tlastName: \"Ivanov\", \n\t\t\temail:
+    \"ivanov.viktor@gmail.com\"\n\t\t}\n\t)\n\t{\n\t\tuser
+    {\n\t\t\tid\n\t\t\tfirstName\n\t\t\tlastName\n\t\t\temail\n\t\t}\n\t}\n}"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_a79f0602486c4ceaba4ac3bfe8fe1123
+authentication: {}
+metaSortKey: -1651836229289
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

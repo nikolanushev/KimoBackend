@@ -1,0 +1,27 @@
+_id: req_e2703fa8e9af4bc3affe607b4ce39491
+type: Request
+parentId: wrk_af92c0402a7d4b45acc978e4d6c0e8e7
+modified: 1651837245283
+created: 1651834904054
+url: http://localhost:5000/graphql
+name: Sorting
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"query {\n\tuser(order: {firstName:
+    DESC})\n\t{\n\t\tid\n\t\tfirstName\n\t\tlastName\n\t\temail\n\t}\n}"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_2501b3a14c754990993ab73451ea0426
+authentication: {}
+metaSortKey: -1651834904054
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,27 @@
+_id: req_b894051840684de3bb823292bf8c0cf5
+type: Request
+parentId: wrk_af92c0402a7d4b45acc978e4d6c0e8e7
+modified: 1651834906828
+created: 1651834646503
+url: http://localhost:5000/graphql
+name: Filtering
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"query {\n\tuser(where: {id: {eq:
+    2}})\n\t{\n\t\tid\n\t\tfirstName\n\t\tlastName\n\t\temail\n\t}\n}"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_78166528a6ba487db267a81789d68037
+authentication: {}
+metaSortKey: -1651834646503
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
